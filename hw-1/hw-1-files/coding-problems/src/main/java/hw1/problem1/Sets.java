@@ -7,7 +7,7 @@ public class Sets {
     // Effects: Return a (non null) Set equal to the intersection of sets s1 and s2
     // A null argument is treated as an empty set
 	// complete the implemenation below
-        Set res = new HashSet<>();
+        Set res = new HashSet<Integer>();
 
         if (s1 == null || s2 == null){
             return res;
