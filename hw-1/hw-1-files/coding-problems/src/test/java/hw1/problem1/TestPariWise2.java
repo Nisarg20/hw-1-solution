@@ -1,5 +1,6 @@
 //package hw1.problem1;
 //// [TODO] use Junit and write the test cases below
+//// Total test cases = 7 (Thala for a reason)
 //
 //import org.junit.Test;
 //import static org.junit.Assert.*;
@@ -8,7 +9,7 @@
 //import java.util.HashSet;
 //import java.util.Arrays;
 //
-//public class TestPairwise {
+//public class TestPariWise2 {
 //
 //    //    s1 = null, s2 = null
 //    @Test
@@ -34,52 +35,29 @@
 //        assertTrue(Sets.intersection(s1, s2).isEmpty());
 //    }
 //
-//    //    s1 = null, s2 = {}
-//    @Test
-//    public void test4() {
-//        Set<Integer> s1 = new HashSet<>();
-//        Set<Integer> s2 = null;
-//        assertTrue(Sets.intersection(s1, s2).isEmpty());
-//    }
 //
 //    //    s1 = {}, s2 = {...}
 //    @Test
-//    public void test5() {
+//    public void test4() {
 //        Set<Integer> s1 = new HashSet<>();
 //        Set<Integer> s2 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> expected = new HashSet<>();
 //        assertEquals(expected, Sets.intersection(s1, s2));
 //    }
 //
-//    //    s1 = {...}, s2 = {}
-//    @Test
-//    public void test6() {
-//        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,2,3));
-//        Set<Integer> s2 = new HashSet<>();
-//        Set<Integer> expected = new HashSet<>();
-//        assertEquals(expected, Sets.intersection(s1, s2));
-//    }
 //
 //    //    s1 = {...}, s2 = null
 //    @Test
-//    public void test7() {
+//    public void test5() {
 //        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> s2 = null;
-//        Set<Integer> expected = new HashSet<>();
-//        assertEquals(expected, Sets.intersection(s1, s2));
-//    }
-//    //    s1 = null, s2 = {...}
-//    @Test
-//    public void test8() {
-//        Set<Integer> s1 = null;
-//        Set<Integer> s2 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> expected = new HashSet<>();
 //        assertEquals(expected, Sets.intersection(s1, s2));
 //    }
 //
 //    //    s1 = {...}, s2 = {...}
 //    @Test
-//    public void test9() {
+//    public void test6() {
 //        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> s2 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> expected = new HashSet<>(Arrays.asList(1,2,3));
@@ -88,37 +66,10 @@
 //
 //    //    s1 = {abc}, s2 = {def}
 //    @Test
-//    public void test10() {
+//    public void test7() {
 //        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,2,3));
 //        Set<Integer> s2 = new HashSet<>(Arrays.asList(4,5,6));
 //        Set<Integer> expected = new HashSet<>();
-//        assertEquals(expected, Sets.intersection(s1, s2));
-//    }
-//
-//    //    s1 = {abc}, s2 = {ac}
-//    @Test
-//    public void test11() {
-//        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,2,3));
-//        Set<Integer> s2 = new HashSet<>(Arrays.asList(1,3));
-//        Set<Integer> expected = new HashSet<>(Arrays.asList(1,3));
-//        assertEquals(expected, Sets.intersection(s1, s2));
-//    }
-//
-//    //    s1 = {ac}, s2 = {abc}
-//    @Test
-//    public void test12() {
-//        Set<Integer> s1 = new HashSet<>(Arrays.asList(1,3));
-//        Set<Integer> s2 = new HashSet<>(Arrays.asList(1,2,3));
-//        Set<Integer> expected = new HashSet<>(Arrays.asList(1, 3));
-//        assertEquals(expected, Sets.intersection(s1, s2));
-//    }
-//
-//    //    s1 = {abc}, s2 = {bcd}
-//    @Test
-//    public void test13() {
-//        Set<Integer> s1 = new HashSet<>(Arrays.asList(1, 2, 3));
-//        Set<Integer> s2 = new HashSet<>(Arrays.asList(2, 3, 4));
-//        Set<Integer> expected = new HashSet<>(Arrays.asList(2, 3));
 //        assertEquals(expected, Sets.intersection(s1, s2));
 //    }
 //}
