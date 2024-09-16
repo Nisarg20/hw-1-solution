@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 import org.junit.Test;
 
-public class TestPairWise3 {
+public class TestPairwise {
 
     //    s1 = null, s2 = null
     @Test
